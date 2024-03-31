@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="order.css" rel="stylesheet" />
+    <link href="favicon.png" rel="icon" />
+    <title>Pizza</title>
+  </head>
+  <body>
+    <img id="fundal" src="background.jpg" alt="Fundal site" />
+    <div class="logo">
+      <a href="restaurant.html"><img id="logomeniu" src="pizza-logo.jpg" /></a>
+    </div>
+    <form action="" method="get" class="form">
+      <div class="form">
+        <label id="nume" for="nume">Introduce-ti numele: </label>
+        <input type="text" name="nume" />
+      </div>
+      <div class="form">
+        <label for="adresa">Introduce-ti adresa: </label>
+        <input type="text" name="adresa" />
+      </div>
+      <div class="form">
+        <label for="tip-pizza" name="tip-pizza">Alege tipul de pizza</label>
+        <select id="lista-pizza">
+          <option value="option1">---</option>
+          <option value="option2">Pizza Margherita</option>
+          <option value="option3">Pizza Diavolo</option>
+          <option value="option4">Pizza Prosciutto</option>
+          <option value="option5">Pizza 4-Formaggi</option>
+          <option value="option6">Pizza Calzone</option>
+          <option value="option7">Pizza Mexicana</option>
+        </select>
+      </div>
+      <div class="form">
+        <label for="adresa">Alege metoda de plata:</label>
+        <select id="lista-bani">
+          <option value="option1">---</option>
+          <option value="option2">Cash</option>
+          <option value="option3">Card</option>
+        </select>
+      <div class="form">
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
